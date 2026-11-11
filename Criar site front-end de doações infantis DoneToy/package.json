@@ -1,0 +1,9 @@
+{
+  "name": "donetoy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DoneToy — site estático de doações para crianças",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4f0e8" />
+  <meta name="description"
+    content="DoneToy conecta brinquedos, roupas e materiais escolares a crianças que precisam deles." />
+  <title>DoneToy — Brinquedo pequeno. Impacto gigante.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/app.js"></script>
+</head>
+
+<body>
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="DoneToy, início">
+      <span class="brand__mark">
+  <img src="assets/img/site/logo.png" alt="Logo DoneToy">
+</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <a href="#catalogo">Itens disponíveis</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#impacto">Nosso impacto</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button class="login-link" data-open-auth="login">Entrar</button>
+      <a class="button button--small button--dark" href="#doar">Quero doar <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="eyebrow__line"></span> Um ciclo de cuidado</p>
+        <h1>Brinquedo pequeno.<br /><em>Impacto gigante.</em></h1>
+        <p class="hero__lead">O que já fez uma criança sorrir pode começar uma nova história. O DoneToy conecta doações
+          a quem mais precisa — com cuidado, transparência e afeto.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#doar">Começar uma doação <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#catalogo">Ver itens disponíveis <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero__meta">
+          <div class="avatar-stack" aria-hidden="true">
+            <span>AM</span><span>JR</span><span>LN</span><span>+</span>
+          </div>
+          <p><strong>1.240 pessoas</strong><br />já fazem parte desse movimento</p>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__frame">
+          <img src="assets/img/site/hero.png" alt="Criança brincando junto com brinquedo doado" />
+          <div class="hero__caption"><span>Histórias que circulam</span><span>01 / 04</span></div>
+        </div>
+        <div class="hero-note hero-note--top"><span class="note-icon">✦</span><strong>+2.860</strong><small>itens em
+            boas mãos</small></div>
+        <div class="hero-note hero-note--bottom"><span class="mini-check">✓</span><span>Doações
+            acompanhadas<br /><strong>do começo ao sorriso.</strong></span></div>
+      </div>
+    </section>
+
+    <section class="trust-row section-shell" aria-label="Números do DoneToy">
+      <div class="trust-row__intro"><span class="label-mono">EM MOVIMENTO</span>
+        <p>Doar é fazer<br />o cuidado circular.</p>
+      </div>
+      <div class="metric"><strong>2.860</strong><span>itens encaminhados</span></div>
+      <div class="metric"><strong>48</strong><span>instituições parceiras</span></div>
+      <div class="metric"><strong>96%</strong><span>dos itens aproveitados</span></div>
+    </section>
+
+    <section class="section-shell intro-section" id="como-funciona">
+      <div class="section-heading section-heading--wide">
+        <div>
+          <p class="eyebrow"><span class="eyebrow__line"></span> Como o DoneToy funciona</p>
+          <h2>Menos descarte.<br /><span>Mais recomeços.</span></h2>
+        </div>
+        <p class="section-heading__aside">Uma rede simples para que objetos com história encontrem novas mãos — e novas
+          possibilidades.</p>
+      </div>
+      <div class="process-grid">
+        <article class="process-card process-card--active"><span class="process-card__number">01</span><span
+            class="process-card__icon">⌁</span>
+          <h3>Você compartilha</h3>
+          <p>Conte o que deseja doar, em poucos passos e com toda a praticidade.</p><a href="#doar" class="circle-arrow"
+            aria-label="Ir para doar">↗</a>
+        </article>
+        <article class="process-card"><span class="process-card__number">02</span><span
+            class="process-card__icon">↔</span>
+          <h3>A gente conecta</h3>
+          <p>Encontramos uma instituição parceira que combina com cada item.</p><a href="#campanhas"
+            class="circle-arrow" aria-label="Ver campanhas">↗</a>
+        </article>
+        <article class="process-card"><span class="process-card__number">03</span><span
+            class="process-card__icon">✧</span>
+          <h3>O cuidado continua</h3>
+          <p>Você acompanha o caminho do item até ele chegar a quem precisa.</p><a href="#impacto" class="circle-arrow"
+            aria-label="Ver impacto">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalogo">
+      <div class="section-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__line"></span> Prontos para circular</p>
+            <h2>Itens disponíveis<br /><span>para uma nova história.</span></h2>
+          </div>
+          <p class="section-heading__aside">Cada item abaixo foi revisado por nossa rede. Encontre o que precisa e
+            solicite com carinho.</p>
+        </div>
+        <div class="catalog-toolbar">
+          <label class="search-field"><span aria-hidden="true">⌕</span><input id="catalogSearch" type="search"
+              placeholder="Buscar um item..." aria-label="Buscar item" /></label>
+          <div class="filter-chips" role="group" aria-label="Filtrar por categoria">
+            <button class="filter-chip is-active" data-filter="todos">Todos</button>
+            <button class="filter-chip" data-filter="brinquedos">Brinquedos</button>
+            <button class="filter-chip" data-filter="livros">Livros</button>
+            <button class="filter-chip" data-filter="roupas">Roupas</button>
+            <button class="filter-chip" data-filter="escolar">Escolar</button>
+          </div>
+        </div>
+        <div class="items-grid" id="itemsGrid"></div>
+        <div class="catalog-empty" id="catalogEmpty" hidden><span>◌</span>
+          <p>Nenhum item encontrado.</p><button class="text-link" id="clearFilters">Limpar filtros
+            <span>↗</span></button>
+        </div>
+        <div class="center-link"><button class="button button--outline" id="showAllItems">Ver todos os itens <span
+              aria-hidden="true">↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="campaign-section section-shell" id="campanhas">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow__line"></span> Juntos, agora</p>
+          <h2>Campanhas que<br /><span>viram presença.</span></h2>
+        </div>
+        <a class="text-link" href="#doar">Quero apoiar uma campanha <span>↗</span></a>
+      </div>
+      <div class="campaign-layout">
+        <article class="campaign-feature">
+          <div class="campaign-feature__art"><span class="art-sticker">URGENTE</span><span class="art-sun">✺</span><span
+              class="art-title">volta<br />às aulas</span><span class="art-pencil">✎</span><span
+              class="art-star">✦</span></div>
+          <div class="campaign-feature__body">
+            <div class="campaign-head">
+              <div><span class="label-mono">CAMPANHA 01</span>
+                
+                <h3>Material para recomeçar</h3>
+              </div><span class="campaign-days">14 dias restantes</span>
+            </div>
+            <p>Uma mochila cheia pode mudar a forma como uma criança começa o ano.</p>
+            <div class="progress-meta"><span>R$ 18.450 arrecadados</span><strong>74%</strong></div>
+            <div class="progress-bar"><span style="width:74%"></span></div>
+            <div class="campaign-foot"><span>Meta: R$ 25.000</span><button class="button button--dark button--tiny"
+                data-campaign="Material para recomeçar">Apoiar campanha <span>↗</span></button></div>
+          </div>
+        </article>
+        <div class="campaign-side">
+          <article class="mini-campaign">
+            <div class="mini-campaign__icon mini-campaign__icon--coral">◒</div>
+            <div><span class="label-mono">CAMPANHA 02</span>
+              <h3>Brincar é direito</h3>
+              <p>250 brinquedos para a brinquedoteca do Lar Aurora.</p>
+              <div class="progress-bar progress-bar--slim"><span style="width:52%"></span></div>
+              <div class="mini-campaign__meta"><span>130 / 250 itens</span><button class="circle-arrow"
+                  data-campaign="Brincar é direito" aria-label="Apoiar campanha">↗</button></div>
+            </div>
+          </article>
+          <article class="mini-campaign">
+            <div class="mini-campaign__icon mini-campaign__icon--blue">⌁</div>
+            <div><span class="label-mono">CAMPANHA 03</span>
+              <h3>Um casaco, um abraço</h3>
+              <p>Roupas de inverno para 80 crianças do Vale.</p>
+              <div class="progress-bar progress-bar--slim"><span style="width:38%"></span></div>
+              <div class="mini-campaign__meta"><span>30 / 80 kits</span><button class="circle-arrow"
+                  data-campaign="Um casaco, um abraço" aria-label="Apoiar campanha">↗</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-section" id="impacto">
+      <div class="section-shell impact-layout">
+        <div class="impact-photo"><img src="assets/img/site/impacto.jpeg"
+            alt="Menina sorrindo enquanto segura um brinquedo doado" /><span class="impact-photo__caption">Uma doação
+            pode<br /><em>começar aqui.</em></span></div>
+        <div class="impact-copy">
+          <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> Impacto que fica</p>
+          <h2>Quando um item<br /><em>encontra alguém,</em><br />tudo muda.</h2>
+          <p>O DoneToy existe para transformar a passagem de um objeto em presença real. Em cada entrega, tem uma
+            criança que ganha mais do que um presente: ganha espaço para imaginar, aprender e brincar.</p>
+          <div class="quote"><span class="quote-mark">“</span>
+            <p>Receber aquela mochila fez a Malu se sentir pronta para o primeiro dia.</p><small>— Júlia, educadora
+              parceira</small>
+          </div><a class="button button--light" href="#contato">Conhecer mais histórias <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="signup-section section-shell" id="cadastro">
+      <div class="signup-card">
+        <div class="signup-card__copy"><span class="signup-card__stamp">FAÇA PARTE</span>
+          <h2>Seu cuidado<br /><em>tem lugar aqui.</em></h2>
+          <p>Crie seu perfil para acompanhar suas doações, salvar itens e receber novidades de campanhas que combinam
+            com você.</p>
+          <div class="signup-benefits"><span>✓ Histórico de doações</span><span>✓ Alertas de campanhas</span><span>✓
+              Itens salvos</span></div>
+        </div>
+        <div class="signup-card__form">
+          <div class="form-topline"><span class="label-mono">JUNTE-SE À REDE</span><span>É gratuito</span></div>
+          <form id="registerForm"><label>Seu nome<input name="name" type="text" placeholder="Como podemos te chamar?"
+                required /></label><label>Seu e-mail<input name="email" type="email" placeholder="voce@email.com"
+                required /></label><label>Crie uma senha<input name="password" type="password" minlength="6"
+                placeholder="Mínimo de 6 caracteres" required /></label><button
+              class="button button--primary button--full" type="submit">Criar meu cadastro <span>↗</span></button>
+          </form>
+          <p class="form-note">Já tem cadastro? <button class="inline-button" data-open-auth="login">Entrar
+              agora</button></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell" id="contato">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow__line"></span> Estamos por perto</p>
+          <h2>Fale com<br /><span>a gente.</span></h2>
+        </div>
+        <p class="section-heading__aside">Quer tirar uma dúvida, propor uma parceria ou só dizer oi? A nossa caixa de
+          entrada está aberta.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info"><a href="mailto:oi@donetoy.org">oi@donetoy.org <span>↗</span></a><a
+            href="tel:+551140028922">+55 11 4002-8922 <span>↗</span></a>
+          <p>Segunda a sexta<br />9h às 18h</p>
+          <div class="social-links"><a href="#contato" data-demo-link="Instagram" aria-label="Instagram">ig</a><a
+              href="#contato" data-demo-link="LinkedIn" aria-label="LinkedIn">in</a><a href="#contato"
+              data-demo-link="WhatsApp" aria-label="WhatsApp">wa</a></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row"><label>Seu nome<input name="name" type="text" placeholder="Nome completo"
+                required /></label><label>Seu e-mail<input name="email" type="email" placeholder="voce@email.com"
+                required /></label></div><label>Assunto<select name="subject" required>
+              <option value="" disabled selected>Selecione uma opção</option>
+              <option>Quero ser voluntário</option>
+              <option>Quero fazer uma parceria</option>
+              <option>Tenho uma dúvida</option>
+              <option>Outro assunto</option>
+            </select></label><label>Mensagem<textarea name="message" rows="4" placeholder="Escreva sua mensagem..."
+              required></textarea></label><button class="button button--dark" type="submit">Enviar mensagem
+            <span>↗</span></button>
+        </form>
+      </div>
+      <div class="faq">
+        <div><span class="label-mono">DÚVIDAS FREQUENTES</span>
+          <h3>Ainda ficou alguma pergunta?</h3>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Como faço para doar um item? <span>+</span></summary>
+            <p>Preencha o formulário de doação, conte um pouco sobre o item e nossa equipe fará a conexão com uma
+              instituição parceira.</p>
+          </details>
+          <details>
+            <summary>Posso acompanhar a entrega? <span>+</span></summary>
+            <p>Sim. Ao criar seu cadastro, você acompanha as etapas da sua doação pelo histórico do seu perfil.</p>
+          </details>
+          <details>
+            <summary>O DoneToy recebe doações em dinheiro? <span>+</span></summary>
+            <p>Neste protótipo, o foco é a circulação de itens. Para apoiar financeiramente, envie uma mensagem e
+              conversamos sobre parcerias.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="donation-drawer" id="doar" aria-labelledby="donationTitle">
+    <div class="section-shell donation-layout">
+      <div class="donation-copy">
+        <p class="eyebrow"><span class="eyebrow__line"></span> Uma nova história começa</p>
+        <h2 id="donationTitle">O que você<br /><span>quer compartilhar?</span></h2>
+        <p>Conte sobre um item que está pronto para circular. A gente cuida do resto.</p>
+        <div class="donation-note"><span>✦</span>
+          <p>Não precisa ser novo. Precisa estar pronto para fazer alguém sorrir.</p>
+        </div>
+      </div>
+      <form class="donation-form" id="donationForm">
+        <div class="form-topline"><span class="label-mono">FORMULÁRIO DE DOAÇÃO</span><span>01 / 03</span></div>
+        <div class="form-row"><label>Seu nome<input name="name" type="text" placeholder="Nome completo"
+              required /></label><label>Seu e-mail<input name="email" type="email" placeholder="voce@email.com"
+              required /></label></div>
+        <div class="form-row"><label>O que você quer doar?<input name="item" type="text"
+              placeholder="Ex.: bicicleta infantil" required /></label><label>Categoria<select name="category" required>
+              <option value="" disabled selected>Escolha</option>
+              <option value="brinquedos">Brinquedos</option>
+              <option value="livros">Livros</option>
+              <option value="roupas">Roupas</option>
+              <option value="escolar">Material escolar</option>
+            </select></label></div>
+        <fieldset>
+          <legend>Como está o item?</legend>
+          <div class="radio-row"><label><input type="radio" name="condition" value="Como novo" required /><span>Como
+                novo</span></label><label><input type="radio" name="condition" value="Bem cuidado" /><span>Bem
+                cuidado</span></label><label><input type="radio" name="condition" value="Com marcas de uso" /><span>Com
+                marcas de uso</span></label></div>
+        </fieldset><label>Conte um pouco mais<textarea name="description" rows="3"
+            placeholder="Tamanho, cor, detalhes importantes..."></textarea></label><label class="file-drop"><input
+            name="photo" type="file" accept="image/*" /><span class="file-drop__icon">＋</span><span><strong>Adicionar
+              uma foto</strong><small>Opcional · JPG ou PNG</small></span></label><button
+          class="button button--primary button--full" type="submit">Enviar minha doação <span>↗</span></button>
+        <p class="form-note">Ao enviar, você concorda com o nosso <a href="#contato"
+            data-demo-link="Termo de cuidado">termo de cuidado</a>.</p>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="section-shell footer-main">
+      <div class="footer-brand"><a class="brand brand--footer" href="#inicio"><span class="brand__mark"><svg
+              viewBox="0 0 44 44">
+              <path d="M22 4c9.94 0 18 8.06 18 18S31.94 40 22 40 4 31.94 4 22 12.06 4 22 4Z" fill="currentColor"
+                opacity=".16" />
+              <path
+                d="M14 25.7c0-4.7 3.6-8.2 8-8.2s8 3.5 8 8.2c0 3.7-2.5 6.6-5.9 7.2-.66.12-1.27-.4-1.27-1.07v-1.2h-1.7v1.2c0 .67-.61 1.19-1.27 1.07C16.5 32.3 14 29.4 14 25.7Z"
+                fill="currentColor" />
+              <circle cx="18.1" cy="24.1" r="1.4" fill="#102c2e" />
+              <circle cx="25.9" cy="24.1" r="1.4" fill="#102c2e" />
+            </svg></span><span class="brand__name">Done<span>Toy</span></span></a>
+        <p>Objetos com história.<br />Novas histórias por vir.</p>
+      </div>
+      <div class="footer-links">
+        <div><span class="label-mono">EXPLORAR</span><a href="#catalogo">Itens disponíveis</a><a
+            href="#campanhas">Campanhas</a><a href="#impacto">Nosso impacto</a></div>
+        <div><span class="label-mono">PARTICIPE</span><a href="#doar">Doar um item</a><a href="#cadastro">Criar
+            cadastro</a><a href="#contato">Fale com a gente</a></div>
+        <div><span class="label-mono">SOCIAL</span><a href="#contato" data-demo-link="Instagram">Instagram ↗</a><a
+            href="#contato" data-demo-link="LinkedIn">LinkedIn ↗</a><a href="#contato"
+            data-demo-link="WhatsApp">WhatsApp ↗</a></div>
+      </div>
+    </div>
+    <div class="section-shell footer-bottom"><span>© 2026 DoneToy</span><span>Feito para fazer o cuidado
+        circular.</span><span class="footer-demo">Protótipo frontend · dados locais</span></div>
+  </footer>
+
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close"
+        id="modalClose" aria-label="Fechar">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"><span class="toast__icon">✓</span><span
+      id="toastMessage">Tudo certo.</span></div>
+</body>
+
+</html>
